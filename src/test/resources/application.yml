@@ -1,0 +1,21 @@
+server:
+  port: 8099
+
+spring:
+  influx:
+    url: http://192.168.8.216:8086
+    token: PAIMjt4hyzfYjMj4Ix2yrOeVld9nhoyaoW0Ffzz4IAIBY_y8yFrWkf-K1_ijpdb-rV5_YJ5zfwWgfd6VBW3dKg==
+    org: niubi
+    bucket: iot
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.8.216:3306/db1?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+
+#rocketmq:
+#  name-server: 192.168.8.107:9876
+#  producer:
+#    group: demo-producer-group
+#  consumer:
+#    group: demo-consumer-group
